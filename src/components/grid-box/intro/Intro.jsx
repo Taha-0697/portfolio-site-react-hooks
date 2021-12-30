@@ -18,8 +18,8 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web
-                        services and online stores.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores, veniam ducimus quos, facilis voluptas
+                        consequuntur deleniti esse eveniet tempore asperiores ab! Pariatur, est debitis voluptate incidunt optio vero rem!
                     </p>
                 </div>
                 <svg
