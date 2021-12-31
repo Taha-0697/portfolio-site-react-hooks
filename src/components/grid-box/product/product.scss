@@ -27,5 +27,11 @@
         height: 100%;
         object-fit: fill;
         transition: all 1s ease;
+
+        &:hover{
+                transform: translateY(-100%);
+        }
+
     }
+
 }
