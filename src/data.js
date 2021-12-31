@@ -29,14 +29,4 @@ export const products = [
         img: "https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
         link: "http://lama.dev",
     },
-    {
-        id: 7,
-        img: "https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        link: "http://lama.dev",
-    },
-    {
-        id: 8,
-        img: "https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        link: "http://lama.dev",
-    },
 ];
