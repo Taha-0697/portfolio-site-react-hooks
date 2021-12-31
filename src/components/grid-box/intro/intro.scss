@@ -5,15 +5,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
+    
 
     @include mobile {
         grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr;
+        height: 80vh;
 
     }
 
     .i-left {
-        margin-left: 10px;
+        margin-left: 50px;
         align-self: center;
 
         @include mobile{
