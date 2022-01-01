@@ -5,7 +5,15 @@
     margin-top: 50px;
     height: 100vh;
     position: relative;
-    padding: 50px;
+    padding: 30px 50px 0px 50px;
+
+    .c-heading {
+        text-align: center;
+        font-size: 30px;
+        @include mobile {
+            font-size: 23px;
+        }
+    }
 
     .c-wrapper {
         display: grid;
@@ -17,12 +25,12 @@
 
         .c-left {
             .c-title {
-                font-size: 65px;
+                margin-top: 30px;
+                font-size: 45px;
                 width: 100%;
 
                 @include mobile {
-                    font-size: 30px;
-                    text-align: center;
+                    display: none;
                 }
             }
             .c-info {
@@ -49,7 +57,7 @@
             padding: 50px;
 
             @include mobile {
-                padding: 50px 0;
+                padding: 0;
             }
 
             .c-desc {
@@ -94,6 +102,19 @@
                     color: white;
                     font-weight: 500;
                     cursor: pointer;
+
+                    @include mobile {
+                        padding: 8px;
+                    }
+                }
+
+                span {
+                    font-size: 15px;
+                    margin-left: 10px;
+
+                    @include mobile {
+                        font-size: 10px;
+                    }
                 }
             }
         }
