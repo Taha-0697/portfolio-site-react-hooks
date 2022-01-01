@@ -1,0 +1,101 @@
+// grid-box
+@import "../../../global.scss";
+
+.c {
+    margin-top: 50px;
+    height: 100vh;
+    position: relative;
+    padding: 50px;
+
+    .c-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include mobile {
+            grid-template-columns: 1fr;
+        }
+
+        .c-left {
+            .c-title {
+                font-size: 65px;
+                width: 100%;
+
+                @include mobile {
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .c-info {
+                .c-info-item {
+                    margin: 50px 0px;
+                    font-weight: 300;
+                    width: 100%;
+
+                    @include mobile {
+                        margin: 40px 0px;
+                        font-size: 12px;
+                    }
+
+                    .c-icon {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+
+        .c-right {
+            padding: 50px;
+
+            @include mobile {
+                padding: 50px 0;
+            }
+
+            .c-desc {
+                font-weight: 200;
+                line-height: 1.9em;
+            }
+
+            form {
+                margin-top: 20px;
+
+                input {
+                    width: 50%;
+                    height: 50px;
+                    border: none;
+                    border-bottom: 1px solid black;
+                    margin: 10px 0px;
+                    font-size: 14px;
+                    padding-left: 10px;
+
+                    @include mobile {
+                        width: 44.2%;
+                        margin: 10px 10px 0px 0px;
+
+                        &:nth-child(3) {
+                            width: 100%;
+                            margin: 10px 0px;
+                        }
+                    }
+                }
+
+                textarea {
+                    width: 100%;
+                    margin: 10px 0px;
+                    font-size: 14px;
+                    padding-left: 10px;
+                }
+
+                button {
+                    border: none;
+                    padding: 15px;
+                    background-color: #59b256;
+                    color: white;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
